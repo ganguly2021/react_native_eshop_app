@@ -27,7 +27,6 @@ function ProductContainer() {
   return (
     <View style={styles.container}>
       <View style={styles.list}>
-        <Text>Product Container.</Text>
         <FlatList
           numColumns={2}
           data={products}
