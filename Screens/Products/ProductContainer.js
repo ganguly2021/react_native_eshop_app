@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  View,
-  StyleSheet,
-  ActivityIndicator,
-  Text,
-  FlatList,
-} from "react-native";
+import { View, StyleSheet, ActivityIndicator, FlatList } from "react-native";
 
 import ProductList from "./ProductList";
 
