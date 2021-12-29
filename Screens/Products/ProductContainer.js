@@ -24,14 +24,12 @@ function ProductContainer() {
     };
   }, []);
 
-  console.log(data);
-
   return (
     <View style={styles.container}>
-      <Text>Product Container.</Text>
       <View style={styles.list}>
+        <Text>Product Container.</Text>
         <FlatList
-          horizontal
+          numColumns={2}
           data={products}
           renderItem={({ item }) => <ProductList key={item.id} item={item} />}
           keyExtractor={(item) => item.name}
@@ -44,7 +42,7 @@ function ProductContainer() {
 const styles = StyleSheet.create({
   container: {},
   list: {
-    marginTop: 100,
+    marginTop: 5,
   },
 });
 

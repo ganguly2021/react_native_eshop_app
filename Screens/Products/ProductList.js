@@ -7,16 +7,15 @@ import {
   Dimensions,
 } from "react-native";
 
+import ProductCard from "./ProductCard";
+
 const { width, height } = Dimensions.get("window");
 
 const ProductList = ({ item }) => {
-  console.log(`width : ${width / 2}`);
-  console.log(`height : ${height / 2}`);
-
   return (
     <TouchableOpacity style={styles.touch}>
       <View style={styles.container}>
-        <Text>{item.brand}</Text>
+        <ProductCard item={item} />
       </View>
     </TouchableOpacity>
   );
@@ -28,7 +27,7 @@ const styles = StyleSheet.create({
     backgroundColor: "gainsboro",
   },
   touch: {
-    width: "50%",
+    width: "50%"
   },
 });
 
