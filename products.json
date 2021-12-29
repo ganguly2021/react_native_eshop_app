@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "KT4Qk2D9yvhA6Sm2n2yDfk9uKL3NrhC5",
+    "image": "https://m.media-amazon.com/images/I/51hOmdg8STL._AC_UL320_.jpg",
+    "brand": "Vivo",
+    "rating": 3,
+    "price": 15000,
+    "numReviews": 0,
+    "name": "Vivo S3",
+    "description": "5G Smartphone with 64MP camera.",
+    "isFeatured": true,
+    "category": "RBCyh8vdfjkPnR4sBf7FNPH245dE6HU3",
+    "countInStock": 100
+  },
+  {
+    "_id": "4UvuqAAGRypE4jLhajNSq75K6P5tpXEH",
+    "image": "https://m.media-amazon.com/images/I/71xJNmv-clL._AC_UY218_.jpg",
+    "brand": "PlayStation",
+    "rating": 4.5,
+    "price": 65000,
+    "numReviews": 100,
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 with RTX based graphics card.",
+    "isFeatured": true,
+    "category": "kNaNxVnkejjpb88uQ95Nb5NtaCe9Pb7U",
+    "countInStock": 50
+  },
+  {
+    "_id": "CYGKnjnsCMB9JXPNsF4sy7aBVqAXdmuP",
+    "image": "https://m.media-amazon.com/images/I/61CjXp692wL._AC_UY218_.jpg",
+    "brand": "SanDisk",
+    "rating": 4,
+    "price": 750,
+    "numReviews": 1000,
+    "name": "64GB Pendrive",
+    "description": "SanDisk Pendrive with 64GB storage capacity.",
+    "isFeatured": true,
+    "category": "RWYUjFcQuwpJ4D5zB8wEEw24624pfLpW",
+    "countInStock": 1500
+  },
+  {
+    "_id": "EA9rCGPKMDtDDgWCbjP9mtkZ4BKL52MC",
+    "image": "https://m.media-amazon.com/images/I/61H5pIwnCdL._AC_UL320_.jpg",
+    "brand": "Ben Martin",
+    "rating": 5,
+    "price": 500,
+    "numReviews": 150,
+    "name": "Mens Winter Jacket",
+    "description": "Ben Martin winter jackets for mens.",
+    "isFeatured": true,
+    "category": "dNYYUCCaJwTaVkMYgtATaYfrF8PdWpSS",
+    "countInStock": 5000
+  },
+  {
+    "_id": "rU8ATDgFL73y62T5HbzGfvYpBzPJ2zND",
+    "image": "https://m.media-amazon.com/images/I/61mcdIbkaIL._AC_UL320_.jpg",
+    "brand": "Lavnis",
+    "rating": 3,
+    "price": 1250,
+    "numReviews": 100,
+    "name": "Mens Winter Woolen Coat",
+    "description": "Lavnis mens winter woolen coats.",
+    "isFeatured": true,
+    "category": "tU8pXPcJra6YXKtVmx5kZ8zFYdz3tcGc",
+    "countInStock": 500
+  },
+  {
+    "_id": "4zbyamyTM2hb2AY6KFBVzbjj4jtBuzF9",
+    "image": "https://m.media-amazon.com/images/I/718YwENfxPL._AC_UL320_.jpg",
+    "brand": "Ego Itlay",
+    "rating": 4.5,
+    "price": 999,
+    "numReviews": 500,
+    "name": "Mens Winter Shoes",
+    "description": "Mens winter shoes created with pure leather.",
+    "isFeatured": true,
+    "category": "Sy89eEPkStWJzpaTQsXhkwEkjuZtAMEH",
+    "countInStock": 200
+  }
+]
