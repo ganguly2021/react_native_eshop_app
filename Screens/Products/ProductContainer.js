@@ -7,6 +7,8 @@ import {
   FlatList,
 } from "react-native";
 
+import ProductList from "./ProductList";
+
 // import products data
 const data = require("./../../products.json");
 
@@ -31,7 +33,7 @@ function ProductContainer() {
         <FlatList
           horizontal
           data={products}
-          renderItem={({ item }) => <Text>{item.brand}</Text>}
+          renderItem={({ item }) => <ProductList key={item.id} item={item} />}
           keyExtractor={(item) => item.name}
         />
       </View>
